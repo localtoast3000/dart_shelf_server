@@ -1,8 +1,5 @@
-import 'package:dart_shelf_server/dart_shelf_server.dart';
-
-const host = 'localhost';
-const port = 8080;
+import 'package:dart_shelf_server/api.dart';
 
 void main() {
-  initDartShelfServer(host, port);
+  buildApi().init();
 }
